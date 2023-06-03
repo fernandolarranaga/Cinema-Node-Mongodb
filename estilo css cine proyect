@@ -1,0 +1,84 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image:url("https://d1xxa24wwackpg.cloudfront.net/wp-content/uploads/2018/10/286-MAG-PERISCOPIO-9.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+  }
+  
+  a {
+    color: #00B7FF;
+  }
+  
+  .container-index{
+    position: relative;
+    float: right;
+  }
+  
+  .container-index h1{
+  color:white;
+  font-size: 7.5em;
+  padding:0;
+  margin:0;
+  }
+  
+  .boton{
+    width:250px;
+    background-color:rgb(223, 204, 204);
+    padding:7px;
+    border-radius: 15% ;
+    text-align: center;
+    color: red;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    border: 3px ;
+    margin-top: 30px;
+   
+  }
+  
+  .boton:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+  
+  .boton a{
+    text-decoration: none;
+    color:red;
+  }
+  .lista{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .lista ul{
+    list-style: none;
+  }
+  
+  h3{
+    color:white;
+    font-size:16px;
+    text-align: center;
+  }
+  
+   p{
+    color:white;
+    font-weight: bold;
+    padding:20px;
+    text-align: justify;
+  }
+  
+  h1, h2{
+    text-align: center;
+    color:white;
+  }
+  
+  .detail{
+    padding:15px;
+    text-align: center;
+  }
+  
+  img{
+    border: 12px solid white;
+  }

@@ -1,0 +1,17 @@
+{{!-- book-create.hbs --}}
+ 
+
+
+<p class="texto">Registro</p>
+<div class="Registro">
+<form action="/movies/create" method="post">
+
+<span class="fontawesome-user"></span><input type="text" required placeholder="Título" autocomplete="off" name="title"> 
+<span class="fontawesome-envelope-alt"></span><input type="text"  required placeholder="director" autocomplete="off" name="director">
+<span class="fontawesome-envelope-alt"></span><input type="text" name="image"  placeholder="imagen" autocomplete="off"> 
+	<textarea class="fontawesome-envelope-alt" name="description" placeholder="descripción" cols="30" rows="4"> </textarea>
+ 	
+  <button type="submit">Create</button>
+
+  </form>
+

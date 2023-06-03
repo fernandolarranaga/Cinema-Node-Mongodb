@@ -1,0 +1,21 @@
+{{!-- views/books-list.hbs --}}
+ <div class="contenedor">
+<h1 class="list">Películas</h1>
+
+ <div class="lista">
+{{#each movies}}
+      <ul>
+        <li>
+      <h3>{{title}}</h3>
+      <a href="/movies/{{_id}}"><img src="{{image}}" width="300px"/></a><br>
+      <a href="/movies/{{_id}}/edit">Edit</a> {{!-- <-- add this line  --}}
+     <br> <form action="/movies/{{_id}}/delete" method="POST"> {{!-- <-- add the form  --}}
+      <button>Delete</button></form>
+      </li>
+ </ul>
+  <hr>
+{{/each}}
+ </div>
+
+<a href="/movies/create">Crea una nueva peli</a>
+<hr></div>

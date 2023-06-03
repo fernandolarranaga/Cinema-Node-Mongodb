@@ -1,0 +1,21 @@
+{{!-- books-edit.hbs --}}
+ 
+<h2>Edit the movies: {{title}}</h2>
+ 
+<form action="/movies/{{_id}}/edit" method="post">
+ 
+  <label for="title-input">Title:</label>
+  <input type="text" name="title" id="title-input" value="{{title}}" />
+ 
+  <label for="author-input">director:</label>
+  <input type="text" name="director" id="author-input" value="{{director}}" />
+ 
+  <label for="description-input">Description:</label>
+  <textarea name="description" id="description-input" cols="30" rows="4">{{description}} </textarea>
+ 
+  <label for="rate-input">Imagen:</label>
+  <input type="text" name="image" id="rate-input" value="{{image}}" />
+ 
+  <button type="submit">Save changes</button>
+ 
+</form>
